@@ -1,0 +1,6 @@
+<div class="input-append">
+  <form>
+    <input type="text" class="input-xlarge" data-bind="value: thingid">
+    <button class="btn btn-primary" data-bind="click: downloadThing">{{ _('Download Thing') }}</button>
+  </form>
+</div>

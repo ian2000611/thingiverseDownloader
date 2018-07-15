@@ -1,0 +1,5 @@
+<div class="input-append">
+    <input id="thingiverse-thingid" type="text" class="input-large" data-bind="value: thingid" />
+    <br />
+    <button class="btn btn-primary" data-bind="click: function() {downloadThing('{{ url_for("plugin.thingiverse.thingiverseDownload") }}')}" >{{ _('Download Thing') }}</button>
+</div>
